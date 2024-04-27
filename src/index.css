@@ -10,8 +10,8 @@ body {
 }
 
 .card {
-  width: 190px;
-  height: 254px;
+  /* width: 190px; */
+  /* height: 254px; */
   border-radius: 1.5rem;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
