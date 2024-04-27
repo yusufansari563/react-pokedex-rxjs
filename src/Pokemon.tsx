@@ -18,7 +18,7 @@ const Pokemon = () => {
       {filteredPokemon.map((p) => {
         return (
           <div
-            className={`card px-2 py-3 m-4 mx-2 ${
+            className={`card py-3 m-4 mx-2 ${
               selected$.value.includes(p.id) && "bg-blue-600"
             }`}
             onClick={(e) => {
@@ -40,8 +40,8 @@ const Pokemon = () => {
               className="m-auto text-center font-bold  flex flex-col mt-3"
               key={p.id}
             >
-              <span>{p.name.english}</span>
-              <span>Power - {p.power}</span>
+              <span className="px-4">{p.name.english}</span>
+              <span className="px-4">Power - {p.power}</span>
             </div>
           </div>
         );
