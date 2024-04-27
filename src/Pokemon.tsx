@@ -32,7 +32,7 @@ const Pokemon = () => {
             }}
           >
             <img
-              className=" bg-white border-solid rounded-3xl mx-auto mt-3 w-10/12"
+              className=" bg-white border-solid rounded-3xl mx-auto mt-3 md:w-3/4 w-10/12"
               src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.id}.png`}
               alt=""
             />
